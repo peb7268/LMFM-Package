@@ -1,5 +1,5 @@
 //Testing 1, 2... Basic test to make sure mocha is configured.
-var expect 	= require('chai').expect;
+var expect 	= chai.expect;
 
 describe('Array', function() {
 	it('Array.indexOf', function(){
