@@ -12,7 +12,8 @@ module.exports = function(config) {
     singleRun: false,
 
     files: [
-      'test/**/*.js'
+      'test/unit/*.js',
+      'test/acceptance/*.js'
     ],
 
     plugins:[
