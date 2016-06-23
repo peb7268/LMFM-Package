@@ -19,6 +19,7 @@
     "selenium-webdriver": "^2.53.2"
   },
   "dependencies": {},
+  
   "scripts": {
     "test": "karma start",
     "test:integration": "mocha -w test/integration/*.js"

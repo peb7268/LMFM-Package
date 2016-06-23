@@ -1,3 +1,9 @@
+/**
+Karma runs the unit / acceptance tests, not the integration tests.
+It executes javascript code in each browsers engine that it's configured to work with.
+Note, it doesn't execute code in the browser like selenium / integration tests do. It does not mimic user behaviour.
+**/
+
 module.exports = function(config) {
   config.set({
   	//basePath: '',

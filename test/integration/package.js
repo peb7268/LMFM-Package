@@ -3,8 +3,13 @@ Reference:
 https://www.npmjs.com/package/selenium-webdriver
 https://simpleprogrammer.com/2014/02/03/selenium-with-node-js/
 https://gist.github.com/patoi/5330701
+my TDD youtube channel
 
-Note: this.timeout controls the timeout for async stuff. Keeps the done() method from timing out.
+Notes: 
+- this.timeout controls the timeout for async stuff. Keeps the done() method from timing out.
+- Make sure to start the selenium Jar before running the tests.
+- Run the integration tests by typing npm run test:integration
+
 TODOs: 
 - add in chai and chai expect style syntax
 - add in check to only create a new driver if there is no current one.
