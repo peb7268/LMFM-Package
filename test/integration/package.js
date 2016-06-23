@@ -7,7 +7,7 @@ my TDD youtube channel
 
 Notes: 
 - this.timeout controls the timeout for async stuff. Keeps the done() method from timing out.
-- Make sure to start the selenium Jar before running the tests.
+- Make sure to start the selenium Jar before running the tests. ( just type 'selenium' on my system. It's aliased, otherwise you have to point to the jar)
 - Run the integration tests by typing npm run test:integration
 
 TODOs: 
